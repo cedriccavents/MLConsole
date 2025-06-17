@@ -2,7 +2,7 @@ This is a simple Console to test various machine learning models on toy datasets
 
 **Backend**
 The backend is running on Python. Web framework used for API development is Flask. The Machine learning models are imported using sklearn. In further development, TensorFlow deep learning models will be added.
-To intialize the backend, run the main.py file that will start the server.
+To intialize the backend, run "main.py" file to start the server.
 
 **Frontend**
 The frontend is build using React Vite. In current development mode, run "npm run dev" to launch Frontend. 
