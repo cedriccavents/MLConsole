@@ -1,4 +1,4 @@
-This is a simple Machine Learning Console to test various machine learning models on toy datasets.
+This is a simple Console to test various machine learning models on toy datasets.
 
 **Backend**
 The backend is running on Python. Web frsmework used for API development is Flask. The Machine learning models are from sklearn. In further development, TensorFlow deep learning models will be added.
