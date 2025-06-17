@@ -1,0 +1,53 @@
+{
+  "Regression": {
+    "Linear": {},
+    "Polynomial": {
+      "Degree": 1
+    },
+    "Ridge": {
+      "alpha": 1,
+      "solver": "lfbgs"
+    },
+    "Lasso": {
+      "alpha": 1,
+      "solver": "lfbgs"
+    },
+    "DecisionTree": {
+      "max depth": 10,
+      "criterion": "squared_error",
+      "max features": 10,
+      "max leaf nodes": 5
+    }
+  },
+  "Classification": {
+    "Logistic": {
+      "penalty": "l2"
+    },
+    "DecisionTree": {
+      "max depth": 10,
+      "criterion": "squared_error",
+      "max features": 10,
+      "max leaf nodes": 5
+    },
+    "SVC": {
+      "C": 1,
+      "loss": "Hinge"
+    },
+    "RandomForest": {
+      "# estimators": 50,
+      "criterion": "gini",
+      "max features": "auto",
+      "max depth": null
+    },
+    "AdaBoost": {
+      "max depth": 10,
+      "# estimators": 50,
+      "learning rate": 0.5
+    },
+    "GradientBoost": {
+      "max depth": 10,
+      "# estimators": 50,
+      "learning rate": 0.5
+    }
+  }
+}
