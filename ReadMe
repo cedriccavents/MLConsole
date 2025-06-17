@@ -1,1 +1,8 @@
-This is a simple Machine Learning Console with a Python backend and React Frontend to test various sklearn models on toy datasets.
+This is a simple Machine Learning Console to test various machine learning models on toy datasets.
+
+**Backend**
+The backend is running on Python. Web frsmework used for API development is Flask. The Machine learning models are from sklearn. In further development, TensorFlow deep learning models will be added.
+To intialize the backend, run the main.py file that will start the server.
+
+**Frontend**
+The frontend is build using React Vite. In current development mode, run "npm run dev" to launch Frontend. 
